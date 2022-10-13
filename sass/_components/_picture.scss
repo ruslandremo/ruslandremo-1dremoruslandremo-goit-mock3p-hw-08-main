@@ -1,0 +1,39 @@
+.picture {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.corporation__picture-company {
+  display: flex;
+}
+
+.picture {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,23 @@
+.project-item {
+  flex-basis: calc(100% / 3 - 30px);
+}
+.project-title {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-title-color);
+}
+.project-item-text {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--primary-text-color);
+}
+.project-item-bottom {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+.project-item {
+  flex-basis: calc(100% / 3 - 30px);
+}
